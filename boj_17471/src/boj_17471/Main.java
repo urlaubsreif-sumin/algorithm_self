@@ -1,4 +1,4 @@
-package bok_17471;
+package boj_17471;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.LinkedList;
