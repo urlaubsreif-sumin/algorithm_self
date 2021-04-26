@@ -10,7 +10,7 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		StringBuilder sb = new StringBuilder();
-		
+	
 		try {
 			st = new StringTokenizer(br.readLine());
 			N = Integer.parseInt(st.nextToken());
