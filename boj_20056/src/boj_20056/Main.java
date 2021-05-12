@@ -13,9 +13,9 @@ public class Main {
 		
 		try {
 			st = new StringTokenizer(br.readLine());
-			int N = Integer.parseInt(st.nextToken()); //°ÝÀÚ °¡·Î ¼¼·Î Å©±â
-			int M = Integer.parseInt(st.nextToken()); //ÆÄÀÌ¾îº¼ °³¼ö
-			int K = Integer.parseInt(st.nextToken()); //¸í·É È½¼ö
+			int N = Integer.parseInt(st.nextToken()); //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½
+			int M = Integer.parseInt(st.nextToken()); //ï¿½ï¿½ï¿½Ì¾îº¼ ï¿½ï¿½ï¿½ï¿½
+			int K = Integer.parseInt(st.nextToken()); //ï¿½ï¿½ï¿½ï¿½ È½ï¿½ï¿½
 			
 			Fireball[] fb = new Fireball[M];
 			
