@@ -1,10 +1,5 @@
 package prg_17676.src;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.StringTokenizer;
 
 public class Main {
@@ -44,6 +39,7 @@ class Log {
     Log(String s){
         StringTokenizer st = new StringTokenizer(s);
         st.nextToken();
+        
         String time = st.nextToken();
         String dur_str = st.nextToken();
         st = new StringTokenizer(dur_str.substring(0, dur_str.length() - 1), ".");
